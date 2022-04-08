@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: New
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: Docker@2
